@@ -4,7 +4,9 @@ InchTest
 To start the csv import process
 
 ```shell
-?> rake csv_importer:all
+?> bundle
+?> ./bin/rake db:migrate
+?> time ./bin/rake csv_importer:all # to test CPU usage and time
 ```
 
 ###How it works
