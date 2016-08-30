@@ -17,9 +17,9 @@ The rake task `csv_importer:all` go through each file in `public/csv_import/TABL
 
 `TABLE_NAME` has to be the name of the table (e.g building, people, etc..).
 
-Few CSV files are provided within the projects. to generate another one you can launch one the following rake task:
+Few CSV files are provided within the projects. to generate another one you can launch one the following rake tasks:
 
-`?> rake csv_people`
+`?> rake csv_people`<br/>
 `?> rake csv_buildings`
 
-please look at the readme of the project for further information
+Please look at the readme of the project for further information

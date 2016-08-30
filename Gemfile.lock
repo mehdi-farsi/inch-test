@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mehdi-farsi/csv_importer.git
-  revision: de0ad1f0ccd9b94b3ee2e3f906c618f47ef83921
+  revision: da0b7852e2dec7dbf0fa221f419ae3f7a14d6ab8
   specs:
     csv_importer (0.1.0)
 
