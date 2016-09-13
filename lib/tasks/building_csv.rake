@@ -1,7 +1,7 @@
 desc "Create a csv for Building insertions"
 task :csv_buildings => :environment do
   args = {
-    rows: 10000,
+    rows: 10,
     file_path: "#{Rails.root}/public/csv_import/buildings/#{Time.now.to_i.to_s}.csv"
   }
 

@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/mehdi-farsi/csv_importer.git
-  revision: e9940a281acec50507ccc0a7582113b54803d817
+PATH
+  remote: /Users/mehdi/Documents/projects/gems/csv_importer
   specs:
     csv_importer (0.1.0)
 
