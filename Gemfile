@@ -15,7 +15,7 @@ gem 'turbolinks'
 
 gem 'jbuilder', '~> 2.0'
 
-gem "csv_importer", path: "/Users/mehdi/Documents/projects/gems/csv_importer"
+gem "impex"
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do

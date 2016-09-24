@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160830221845) do
+ActiveRecord::Schema.define(version: 20160924225221) do
 
   create_table "buildings", force: :cascade do |t|
     t.string   "reference"
@@ -32,6 +32,15 @@ ActiveRecord::Schema.define(version: 20160830221845) do
   end
 
   add_index "csv_importer_histories", ["reference", "table"], name: "index_csv_importer_histories_on_reference_and_table"
+
+  create_table "impex_histories", force: :cascade do |t|
+    t.string "reference"
+    t.string "table"
+    t.string "key"
+    t.string "value"
+  end
+
+  add_index "impex_histories", ["reference", "table"], name: "index_impex_histories_on_reference_and_table"
 
   create_table "people", force: :cascade do |t|
     t.string   "reference"
